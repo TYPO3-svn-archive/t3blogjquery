@@ -1,1 +1,0 @@
-page.includeJS.jquerycookie = EXT:t3blogjquery/res/js/jquery.cookie.js
