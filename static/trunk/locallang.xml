@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 't3blogjquery'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="addjQuery">Add jQuery Library: This option adds jQuery Framework file if the extension t3jquery is NOT installed. See documentationfor more information.</label>
+			<label index="jQueryNoConflict">Global jQuery noConflict: If set to true all embedded jQuery Java-Script code will be wrapped in jQuery's noConflict() function. See documentation for more information.</label>
+			<label index="addjQuerycookie">jQuery plugin cookie: Inserts the cookie plugin for jQuery. It must be included after the jQuery library. You can leave it, if the plugin is already included to the page.</label>
+			<label index="addjQueryarchive">T3blog jQuery archive: Includes the JavaScript for the sliding effect of the list archive. This file must be included if your page uses archive t3blog!</label>
+			<label index="addjQuerycat">T3blog jQuery categories: Includes the JavaScript for the sliding effect of the list categories. This file must be included if your page uses categories t3blog!</label>
+			<label index="basePath">Base path: If necessary, enter the path to the directory with the files js, used in this extension (relative to the root directory of a site, for example fileadmin / config / js /). Slash (/) at the end is required! If js files are not transferred from the extension folder, you can leave it blank.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+	</orig_hash>
+	<orig_text type="array">
+	</orig_text>
+</T3locallang>
