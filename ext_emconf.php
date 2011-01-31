@@ -11,17 +11,17 @@
 ########################################################################
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 't3blog: archive widget uses jQuery',
-	'description' => 'Archive widget uses jQuery instead of Mootools now.',
+	'title' => 't3blog: original widgets using jQuery',
+	'description' => 'The original widgets of the t3blog extension are useing jQuery instead of Mootools now.',
 	'category' => 'fe',
-	'author' => 'Hauke Hain',
-	'author_email' => 'hhpreuss@googlemail.com',
+	'author' => 'Hauke Hain, Andrey Aksenov',
+	'author_email' => 'hhpreuss@googlemail.com, aksenovaa@bk.ru',
 	'shy' => '',
 	'dependencies' => 'cms,t3blog',
 	'conflicts' => '',
 	'priority' => '',
 	'module' => '',
-	'state' => 'beta',
+	'state' => 'stable',
 	'internal' => '',
 	'uploadfolder' => 0,
 	'createDirs' => '',
@@ -29,7 +29,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'clearCacheOnLoad' => 0,
 	'lockType' => '',
 	'author_company' => '',
-	'version' => '0.0.0',
+	'version' => '2.0.0',
 	'constraints' => array(
 		'depends' => array(
 			'cms' => '',

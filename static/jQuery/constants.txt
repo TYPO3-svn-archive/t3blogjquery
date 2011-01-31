@@ -3,10 +3,10 @@ t3blogjquery {
 	addjQuery = 1
 	# cat=t3blogjquery/file/020; type=boolean; label=LLL:EXT:t3blogjquery/locallang.xml:jQueryNoConflict
 	jQueryNoConflict = 1
-	# cat=t3blogjquery/file/030; type=boolean; label=LLL:EXT:t3blogjquery/locallang.xml:addjQuerycookie
-	addjQuerycookie = 1
-	# cat=t3blogjquery/file/040; type=boolean; label=LLL:EXT:t3blogjquery/locallang.xml:addjQueryarchive
-	addjQueryarchive = 1
-	# cat=t3blogjquery/file/050; type=boolean; label=LLL:EXT:t3blogjquery/locallang.xml:addjQuerycat
-	addjQuerycat = 1
+	# cat=t3blogjquery/file/030; type=boolean; label=LLL:EXT:t3blogjquery/locallang.xml:addjQueryCookie
+	addjQueryCookie = 1
+	# cat=t3blogjquery/file/040; type=boolean; label=LLL:EXT:t3blogjquery/locallang.xml:addjQueryArchive
+	addjQueryArchive = 1
+	# cat=t3blogjquery/file/050; type=boolean; label=LLL:EXT:t3blogjquery/locallang.xml:addjQueryCat
+	addjQueryCat = 1
 }

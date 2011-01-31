@@ -1,3 +1,15 @@
+2011-01-31 Hauke Hain  <hhpreuss@googlemail.com>
+
+	* Fixed category widget bugs
+	* Cleaned up extension
+	* German translation for TypoScript constants
+
+2011-01-31 Andrey Aksenov <aksenovaa@bk.ru>
+
+	* Original category list plugin uses jQuery now
+	* New TypoScript template
+	* New extension icon
+
 2010-03-27 Hauke Hain  <hhpreuss@googlemail.com>
 
 	* initial release
