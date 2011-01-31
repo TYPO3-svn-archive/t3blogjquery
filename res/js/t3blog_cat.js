@@ -12,7 +12,7 @@ jQuery(document).ready(function() {
 		});
 	}
 	// category toggle
-	var uls = jQuery(".tx-t3blog-pi2 ul#togglecat0 li ul");
+	var uls = jQuery("ul#togglecat0 li ul");
 	uls.each(function(index){
 		var ul = jQuery(this);
 		ul.attr("aria-hidden", true).attr("aria-expanded", false).hide();
