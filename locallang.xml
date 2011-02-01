@@ -19,6 +19,13 @@
 			<label index="addjQueryArchive">t3blog jQuery archive: Fügt das JavaScript für das t3blog Archive-Plugin ein. Unbedingt aktivieren, wenn das Archiv-Modul verwendet wird (und nicht Mootools nutzen soll)!</label>
 			<label index="addjQueryCat">t3blog jQuery categories: Fügt das JavaScript für das t3blog Kategorie-Plugin ein. Unbedingt aktivieren, wenn das Kategorie-Modul verwendet wird (und nicht Mootools nutzen soll)!</label>
 		</languageKey>
+		<languageKey index="ru" type="array">
+			<label index="addjQuery">Добавление библиотеки jQuery: этот параметр добавляет библиотеку jQuery к заголовку страницы, если НЕ установлено расширение t3jquery. За дополнительной информацией обратитесь к документации.</label>
+			<label index="jQueryNoConflict">jQuery noConflict: если установлено, то весь встраиваемый код jQuery Java-Script заключается в функцию noConflict(). За дополнительной информацией обратитесь к документации.</label>
+			<label index="addjQueryCookie">Дополенение jQuery cookie: добавление к заголовку страницы дополнения cookie для jQuery. Оно должно быть включено после библиотеки jQuery. Если дополнение уже добавлено к заголовку страницы, то этот параметр можно отключить.</label>
+			<label index="addjQueryArchive">t3blog jQuery архив: включение JavaScript для эффекта сворачивания/разворачивания элементов списка архива. Этот параметр должен быть включен, если на странице используется дополенение архив для t3blog (весь код, связанный с Mootools при этом удаляется)!</label>
+			<label index="addjQueryCat">t3blog jQuery категории: включение JavaScript для эффекта сворачивания/разворачивания элементов списка категорий. Этот параметр должен быть включен, если на странице используется дополенение категории для t3blog (весь код, связанный с Mootools при этом удаляется)!</label>
+		</languageKey>
 	</data>
 	<orig_hash type="array">
 	</orig_hash>
