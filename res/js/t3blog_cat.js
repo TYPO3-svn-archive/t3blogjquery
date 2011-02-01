@@ -1,22 +1,23 @@
 jQuery(document).ready(function() {
-	// helper function to toggle archive and categrory link
-	function toggleLink(ul, link) {
-		link.text("[+]").toggle(function() {
-			link.text("[-]")
-			ul.attr("aria-hidden", false).attr("aria-expanded", true).slideDown();
-			return false;
-		}, function() {
-		link.text("[+]")
-		ul.attr("aria-hidden", true).attr("aria-expanded", false).slideUp();
-		return false;
-		});
-	}
-	// category toggle
-	var uls = jQuery("ul#togglecat0 li ul");
-	uls.each(function(index){
-		var ul = jQuery(this);
-		ul.attr("aria-hidden", true).attr("aria-expanded", false).hide();
-		var link = ul.prevAll("a.iconbeforetext");
-		toggleLink(ul, link);
-	});
+	jQuery("a[id^='imgtogglecat']").each(function () {
+		var catNo = this.id.substr(12);
+    if(jQuery.cookie('togglecat'+catNo)=='1') {
+      jQuery('#togglecat'+catNo).slideUp();
+      jQuery('#'+this.id).text('[+]');
+    } else {
+      jQuery('#'+this.id).text('[-]');
+    }
+    jQuery('#'+this.id).click(function() {
+      if(jQuery('#'+this.id).text()=='[-]') {
+        jQuery('#togglecat'+catNo).slideUp();
+        jQuery.cookie('togglecat'+catNo,'1',{ path:'/'});
+        jQuery('#'+this.id).text('[+]');
+      } else {
+        jQuery('#togglecat'+catNo).slideDown();
+        jQuery.cookie('togglecat'+catNo,'0',{ path:'/'});
+        jQuery('#'+this.id).text('[-]');
+      }
+      return false;
+    });
+  });
 });
