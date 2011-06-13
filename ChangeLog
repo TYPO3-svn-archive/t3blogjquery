@@ -6,6 +6,7 @@
 	* Updated JavaScripts because of id changes in t3blog 1.1.1
 	  and previous version: toggle sign is now configurable
 	* Updated jQuery to 1.6.1
+	* Get jQuery from Googles CDN (if not t3jquery is used)
 	* Set t3blog compatibility up to version 1.1.0,
 	  version 1.1.1 does not work because of hardcoded JavaScript insertions.
 
