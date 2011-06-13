@@ -1,3 +1,8 @@
+2011-06-13 Hauke Hain  <hhpreuss@googlemail.com>
+
+	* Set t3blog compatibility up to version 1.1.0,
+	  version 1.1.1 does not work because of hardcoded JavaScript insertions.
+
 2011-02-01 Hauke Hain  <hhpreuss@googlemail.com>
 
 	* Completely new JavaScript for the category list plugin: Uses Cookies now.
