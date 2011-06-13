@@ -16,8 +16,23 @@ page.includeJS.jquerycookie = EXT:t3blogjquery/res/js/jquery.cookie.js
 [globalVar = LIT:1 = {$t3blogjquery.addjQueryArchive}]
 # Includes the JavaScript for the sliding effect of the list archive
 page {
-	includeJSFooterlibs {
-		t3blogarchiv =  EXT:t3blogjquery/res/js/t3blog_archive.js
+	jsFooterInline.9090 = TEMPLATE
+		jsFooterInline.9090 {
+			template = FILE
+			template.file = {$t3blogjquery.JsTemplatePath}
+			marks {
+					ACTIONIDPREFIX = TEXT
+					ACTIONIDPREFIX.value = toggle
+					TOGGLEIDPREFIX = TEXT
+					TOGGLEIDPREFIX.value = archive_
+					GETALLSELECTORPREFIX < page.jsFooterInline.9090.marks.TOGGLEIDPREFIX
+					GETALLSELECTORPREFIX.noTrimWrap = |#| |
+					TOGGLEOPEN = TEXT
+					TOGGLEOPEN.value < plugin.tx_t3blog_pi1.archive.toggle.open
+					TOGGLECLOSE = TEXT
+					TOGGLECLOSE.value < plugin.tx_t3blog_pi1.archive.toggle.close
+			}
+		}
 	}
 	# remove globalFuncs.js:
 	headerData.1000 >
@@ -32,8 +47,21 @@ plugin.tx_t3blog_pi2.archive {
 [globalVar = LIT:1 = {$t3blogjquery.addjQueryCat}]
 # Includes the JavaScript for the sliding effect of the list categories.
 page {
-	includeJSFooterlibs {
-		t3blogcat = EXT:t3blogjquery/res/js/t3blog_cat.js
+	jsFooterInline.9091 = TEMPLATE
+		jsFooterInline.9091 {
+			template = FILE
+			template.file = {$t3blogjquery.JsTemplatePath}
+			marks {
+					ACTIONIDPREFIX = TEXT
+					ACTIONIDPREFIX.value = togglecat
+					TOGGLEIDPREFIX = TEXT
+					GETALLSELECTORPREFIX = TEXT
+					TOGGLEOPEN = TEXT
+					TOGGLEOPEN.value < plugin.tx_t3blog_pi1.archive.toggle.open
+					TOGGLECLOSE = TEXT
+					TOGGLECLOSE.value < plugin.tx_t3blog_pi1.archive.toggle.close
+			}
+		}
 	}
 	# remove globalFuncs.js:
 	headerData.1000 >

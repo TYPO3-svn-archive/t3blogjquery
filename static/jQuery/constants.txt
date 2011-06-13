@@ -9,4 +9,6 @@ t3blogjquery {
 	addjQueryArchive = 1
 	# cat=t3blogjquery/file/050; type=boolean; label=LLL:EXT:t3blogjquery/locallang.xml:addjQueryCat
 	addjQueryCat = 1
+	# cat=t3blogjquery/file/060; type=file[js,tmpl,txt]; label= Template File JavaScript: Template file for the jQuery JavaScript that creates the sliding effect for t3blog categories and archive widget
+	JsTemplatePath = EXT:t3blogjquery/res/tmpl/t3blogjquery.js
 }
