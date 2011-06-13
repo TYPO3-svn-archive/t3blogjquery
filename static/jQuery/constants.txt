@@ -2,7 +2,7 @@ t3blogjquery {
 	# cat=t3blogjquery/file/010; type=boolean; label=LLL:EXT:t3blogjquery/locallang.xml:addjQuery
 	addjQuery = 1
 	# cat=t3blogjquery/file/020; type=boolean; label=LLL:EXT:t3blogjquery/locallang.xml:jQueryNoConflict
-	jQueryNoConflict = 1
+	jQueryNoConflict = 0
 	# cat=t3blogjquery/file/030; type=boolean; label=LLL:EXT:t3blogjquery/locallang.xml:addjQueryCookie
 	addjQueryCookie = 1
 	# cat=t3blogjquery/file/040; type=boolean; label=LLL:EXT:t3blogjquery/locallang.xml:addjQueryArchive

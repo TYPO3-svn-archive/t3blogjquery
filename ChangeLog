@@ -1,5 +1,6 @@
 2011-06-13 Hauke Hain  <hhpreuss@googlemail.com>
 
+	* BREAKING CHANGE: jQuery no conflict mode is not default anymore!
 	* Updated the manual
 	* New TypoScript setup because of the change in t3blog 1.1.1 to Ext JS
 	* Own JavaScript files will be inserted at the bottom of the page
