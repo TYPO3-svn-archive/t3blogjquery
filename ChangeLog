@@ -3,6 +3,7 @@
 	* Updated the manual
 	* New TypoScript setup because of the change in t3blog 1.1.1 to Ext JS
 	* Own JavaScript files will be inserted at the bottom of the page
+	* Updated JavaScripts because of id changes in t3blog 1.1.1
 	* Updated jQuery to 1.6.1
 	* Set t3blog compatibility up to version 1.1.0,
 	  version 1.1.1 does not work because of hardcoded JavaScript insertions.
