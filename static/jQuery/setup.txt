@@ -25,6 +25,7 @@ page {
 }
 plugin.tx_t3blog_pi2.archive {
 	listWrap.30 >
+	includeJS = 0
 }
 [global]
 
@@ -40,5 +41,6 @@ page {
 }
 plugin.tx_t3blog_pi2.categories {
 	list.20 >
+	includeJS = 0
 }
 [global]
