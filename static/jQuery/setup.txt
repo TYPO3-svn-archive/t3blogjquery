@@ -1,6 +1,6 @@
 # This option adds jQuery Framework file if the extension t3jquery is NOT installed
 [globalVar = LIT:1 = {$t3blogjquery.addjQuery}]
-page.includeJS.jquery = EXT:t3blogjquery/res/js/jquery-1.5.min.js
+page.includeJS.jquery = EXT:t3blogjquery/res/js/jquery-1.6.1.min.js
 [global]
 
 [globalVar = LIT:1 = {$t3blogjquery.jQueryNoConflict}]
@@ -16,10 +16,8 @@ page.includeJS.jquerycookie = EXT:t3blogjquery/res/js/jquery.cookie.js
 [globalVar = LIT:1 = {$t3blogjquery.addjQueryArchive}]
 # Includes the JavaScript for the sliding effect of the list archive
 page {
-	includeJS {
+	includeJSFooterlibs {
 		t3blogarchiv =  EXT:t3blogjquery/res/js/t3blog_archive.js
-		# remove mootools:
-		10 >
 	}
 	# remove globalFuncs.js:
 	headerData.1000 >
@@ -33,10 +31,8 @@ plugin.tx_t3blog_pi2.archive {
 [globalVar = LIT:1 = {$t3blogjquery.addjQueryCat}]
 # Includes the JavaScript for the sliding effect of the list categories.
 page {
-	includeJS {
+	includeJSFooterlibs {
 		t3blogcat = EXT:t3blogjquery/res/js/t3blog_cat.js
-		# remove mootools:
-		10 >
 	}
 	# remove globalFuncs.js:
 	headerData.1000 >
